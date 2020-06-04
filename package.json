@@ -27,12 +27,14 @@
     "deploy": "yarn publish --non-interactive"
   },
   "dependencies": {
-    "@sentry/minimal": "^5.15.5",
-    "@sentry/types": "^5.15.4",
     "apollo-link": "^1.2.14",
     "deepmerge": "^4.2.2",
     "dot-prop": "^5.2.0",
     "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@sentry/minimal": "^5.15.5",
+    "@sentry/types": "^5.15.4"
   },
   "devDependencies": {
     "@sentry/browser": "^5.15.5",
